@@ -19,75 +19,112 @@ export const userProfile = {
 export const workoutPlans = [
   {
     id: 1,
-    name: "Overall Fitness",
-    description: "Upper/Lower Split, 4 Days a Week",
-    duration: "8 weeks",
+    name: "Push Pull Legs",
+    description: "3-6 Day Split, Muscle Building Focus",
+    duration: "12 weeks",
     difficulty: "Intermediate",
-    daysPerWeek: 4,
+    daysPerWeek: 6,
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
     weeks: [
       {
         weekNumber: 1,
-        title: "WEEK 1 - FOUNDATIONS",
+        title: "WEEK 1 - FOUNDATION",
         workouts: [
           {
             id: 1,
             day: "Day 1",
-            name: "Upper Body Push",
-            duration: "45-60 min",
+            name: "Push (Chest, Shoulders, Triceps)",
+            duration: "60-75 min",
             exercises: [
-              { name: "Bench Press", sets: 3, reps: "8-10", equipment: "Barbell" },
-              { name: "Overhead Press", sets: 3, reps: "8-10", equipment: "Dumbbells" },
-              { name: "Incline Dumbbell Press", sets: 3, reps: "10-12", equipment: "Dumbbells" },
-              { name: "Tricep Dips", sets: 3, reps: "8-12", equipment: "Bodyweight" }
+              { name: "Barbell Bench Press", sets: 4, reps: "8-10", equipment: "Barbell", weight: "70-80% 1RM", restTime: "2-3 min" },
+              { name: "Overhead Press", sets: 4, reps: "8-10", equipment: "Barbell", weight: "65-75% 1RM", restTime: "2-3 min" },
+              { name: "Incline Dumbbell Press", sets: 3, reps: "10-12", equipment: "Dumbbells", weight: "Moderate", restTime: "90 sec" },
+              { name: "Lateral Raises", sets: 3, reps: "12-15", equipment: "Dumbbells", weight: "Light-Moderate", restTime: "60 sec" },
+              { name: "Tricep Dips", sets: 3, reps: "10-15", equipment: "Bodyweight", weight: "Bodyweight", restTime: "60 sec" },
+              { name: "Overhead Tricep Extension", sets: 3, reps: "10-12", equipment: "Dumbbells", weight: "Moderate", restTime: "60 sec" }
             ]
           },
           {
             id: 2,
             day: "Day 2",
-            name: "Lower Body",
-            duration: "45-60 min",
+            name: "Pull (Back, Biceps)",
+            duration: "60-75 min",
             exercises: [
-              { name: "Squats", sets: 4, reps: "8-10", equipment: "Barbell" },
-              { name: "Romanian Deadlift", sets: 3, reps: "8-10", equipment: "Barbell" },
-              { name: "Bulgarian Split Squats", sets: 3, reps: "10 each leg", equipment: "Dumbbells" },
-              { name: "Calf Raises", sets: 3, reps: "15-20", equipment: "Dumbbells" }
+              { name: "Deadlift", sets: 4, reps: "6-8", equipment: "Barbell", weight: "75-85% 1RM", restTime: "3-4 min" },
+              { name: "Pull-ups/Chin-ups", sets: 4, reps: "6-10", equipment: "Bodyweight", weight: "Bodyweight/Assisted", restTime: "2-3 min" },
+              { name: "Barbell Rows", sets: 4, reps: "8-10", equipment: "Barbell", weight: "Moderate-Heavy", restTime: "2 min" },
+              { name: "Lat Pulldown", sets: 3, reps: "10-12", equipment: "Cable", weight: "Moderate", restTime: "90 sec" },
+              { name: "Barbell Curls", sets: 4, reps: "10-12", equipment: "Barbell", weight: "Moderate", restTime: "60 sec" },
+              { name: "Hammer Curls", sets: 3, reps: "10-12", equipment: "Dumbbells", weight: "Moderate", restTime: "60 sec" }
+            ]
+          },
+          {
+            id: 3,
+            day: "Day 3",
+            name: "Legs (Quads, Hamstrings, Glutes, Calves)",
+            duration: "75-90 min",
+            exercises: [
+              { name: "Back Squats", sets: 4, reps: "8-10", equipment: "Barbell", weight: "75-85% 1RM", restTime: "3-4 min" },
+              { name: "Romanian Deadlift", sets: 4, reps: "8-10", equipment: "Barbell", weight: "Moderate-Heavy", restTime: "2-3 min" },
+              { name: "Bulgarian Split Squats", sets: 3, reps: "10-12 each leg", equipment: "Dumbbells", weight: "Moderate", restTime: "90 sec" },
+              { name: "Leg Press", sets: 3, reps: "12-15", equipment: "Machine", weight: "Heavy", restTime: "90 sec" },
+              { name: "Walking Lunges", sets: 3, reps: "12-15 each leg", equipment: "Dumbbells", weight: "Light-Moderate", restTime: "60 sec" },
+              { name: "Calf Raises", sets: 4, reps: "15-20", equipment: "Machine/Dumbbells", weight: "Heavy", restTime: "60 sec" },
+              { name: "Leg Curls", sets: 3, reps: "12-15", equipment: "Machine", weight: "Moderate", restTime: "60 sec" }
             ]
           }
         ]
       },
       {
         weekNumber: 2,
-        title: "WEEK 2 - LOAD",
+        title: "WEEK 2 - PROGRESSIVE OVERLOAD",
         workouts: [
           {
-            id: 3,
+            id: 4,
             day: "Day 1",
-            name: "Upper Body Push",
-            duration: "50-65 min",
+            name: "Push (Chest, Shoulders, Triceps)",
+            duration: "65-80 min",
             exercises: [
-              { name: "Bench Press", sets: 4, reps: "6-8", equipment: "Barbell" },
-              { name: "Overhead Press", sets: 4, reps: "6-8", equipment: "Dumbbells" },
-              { name: "Incline Dumbbell Press", sets: 3, reps: "8-10", equipment: "Dumbbells" },
-              { name: "Tricep Dips", sets: 3, reps: "10-15", equipment: "Bodyweight" }
+              { name: "Barbell Bench Press", sets: 4, reps: "6-8", equipment: "Barbell", weight: "75-85% 1RM", restTime: "3-4 min" },
+              { name: "Overhead Press", sets: 4, reps: "6-8", equipment: "Barbell", weight: "70-80% 1RM", restTime: "3 min" },
+              { name: "Incline Dumbbell Press", sets: 4, reps: "8-10", equipment: "Dumbbells", weight: "Moderate-Heavy", restTime: "2 min" },
+              { name: "Dumbbell Flyes", sets: 3, reps: "10-12", equipment: "Dumbbells", weight: "Light-Moderate", restTime: "90 sec" },
+              { name: "Lateral Raises", sets: 4, reps: "12-15", equipment: "Dumbbells", weight: "Light-Moderate", restTime: "60 sec" },
+              { name: "Close-Grip Bench Press", sets: 3, reps: "8-10", equipment: "Barbell", weight: "Moderate", restTime: "90 sec" },
+              { name: "Tricep Pushdowns", sets: 3, reps: "10-12", equipment: "Cable", weight: "Moderate", restTime: "60 sec" }
+            ]
+          },
+          {
+            id: 5,
+            day: "Day 2",
+            name: "Pull (Back, Biceps)",
+            duration: "65-80 min",
+            exercises: [
+              { name: "Deadlift", sets: 4, reps: "5-6", equipment: "Barbell", weight: "80-90% 1RM", restTime: "4-5 min" },
+              { name: "Weighted Pull-ups", sets: 4, reps: "6-8", equipment: "Bodyweight + Weight", weight: "Added Weight", restTime: "3 min" },
+              { name: "T-Bar Rows", sets: 4, reps: "8-10", equipment: "T-Bar/Landmine", weight: "Heavy", restTime: "2 min" },
+              { name: "Cable Rows", sets: 3, reps: "10-12", equipment: "Cable", weight: "Moderate-Heavy", restTime: "90 sec" },
+              { name: "Face Pulls", sets: 3, reps: "15-20", equipment: "Cable", weight: "Light-Moderate", restTime: "60 sec" },
+              { name: "Preacher Curls", sets: 4, reps: "8-10", equipment: "Barbell/EZ-Bar", weight: "Moderate", restTime: "90 sec" },
+              { name: "Cable Hammer Curls", sets: 3, reps: "10-12", equipment: "Cable", weight: "Moderate", restTime: "60 sec" }
+            ]
+          },
+          {
+            id: 6,
+            day: "Day 3",
+            name: "Legs (Quads, Hamstrings, Glutes, Calves)",
+            duration: "80-95 min",
+            exercises: [
+              { name: "Front Squats", sets: 4, reps: "6-8", equipment: "Barbell", weight: "70-80% 1RM", restTime: "3-4 min" },
+              { name: "Stiff Leg Deadlift", sets: 4, reps: "8-10", equipment: "Barbell", weight: "Moderate-Heavy", restTime: "2-3 min" },
+              { name: "Leg Press", sets: 4, reps: "12-15", equipment: "Machine", weight: "Heavy", restTime: "2 min" },
+              { name: "Step-ups", sets: 3, reps: "10-12 each leg", equipment: "Dumbbells", weight: "Moderate", restTime: "90 sec" },
+              { name: "Hip Thrusts", sets: 4, reps: "10-12", equipment: "Barbell", weight: "Heavy", restTime: "90 sec" },
+              { name: "Standing Calf Raises", sets: 4, reps: "12-15", equipment: "Machine", weight: "Heavy", restTime: "60 sec" },
+              { name: "Seated Calf Raises", sets: 3, reps: "15-20", equipment: "Machine", weight: "Moderate", restTime: "60 sec" }
             ]
           }
         ]
-      },
-      {
-        weekNumber: 3,
-        title: "WEEK 3 - LOAD+",
-        workouts: []
-      },
-      {
-        weekNumber: 4,
-        title: "WEEK 4 - PRE PEAK",
-        workouts: []
-      },
-      {
-        weekNumber: 5,
-        title: "WEEK 5 - PEAK",
-        workouts: []
       }
     ]
   },
