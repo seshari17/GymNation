@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Library from "./pages/Library";
 import Progress from "./pages/Progress";
 import WorkoutDetail from "./pages/WorkoutDetail";
+import PlanDetail from "./pages/PlanDetail";
 
 function App() {
   return (
