@@ -1,4 +1,4 @@
-// Mock data for Gymverse clone
+// Mock data for Gymnation fitness app
 
 export const userProfile = {
   id: 1,
