@@ -21,6 +21,7 @@ function App() {
             <Route path="/library" element={<Library />} />
             <Route path="/progress" element={<Progress />} />
             <Route path="/workout" element={<WorkoutDetail />} />
+            <Route path="/plan" element={<PlanDetail />} />
             <Route path="/settings" element={<div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 flex items-center justify-center"><div className="text-white text-xl">Settings - Coming Soon</div></div>} />
           </Routes>
           <BottomNavigation />
