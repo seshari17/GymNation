@@ -1,19 +1,19 @@
-// Mock data for Gymnation fitness app
+// Comprehensive Gymnation fitness database based on professional programming
 
 export const userProfile = {
   id: 1,
   name: "John Doe",
   email: "john@example.com",
   fitnessLevel: "Intermediate",
-  goal: "Overall Fitness",
+  goal: "Muscle Building",
   workoutDaysPerWeek: 4,
-  availableEquipment: ["Dumbbells", "Barbell", "Bench", "Pull-up Bar", "Resistance Bands"],
+  availableEquipment: ["Dumbbells", "Barbell", "Bench", "Pull-up Bar", "Cable Machine"],
   bmi: 24.2,
   weight: 75,
   height: 175,
-  currentWeek: 2,
+  currentWeek: 3,
   joinDate: "2024-01-15",
-  totalWorkouts: 28
+  totalWorkouts: 42
 };
 
 export const workoutPlans = [
