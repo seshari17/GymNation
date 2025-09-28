@@ -322,53 +322,286 @@ export const workoutPlans = [
 ];
 
 export const exerciseLibrary = [
+  // CHEST EXERCISES
   {
     id: 1,
-    name: "Bench Press",
+    name: "Barbell Bench Press",
     primaryMuscle: "Chest",
-    secondaryMuscles: ["Triceps", "Shoulders"],
+    secondaryMuscles: ["Triceps", "Anterior Deltoids"],
     equipment: "Barbell",
     difficulty: "Intermediate",
     instructions: [
-      "Lie flat on bench with feet firmly on the ground",
-      "Grip the bar with hands slightly wider than shoulder-width",
-      "Lower the bar to your chest with control",
-      "Press the bar back to starting position"
+      "Lie flat on bench with eyes under the bar",
+      "Grip bar with hands slightly wider than shoulder-width",
+      "Retract shoulder blades and maintain arch in lower back",
+      "Lower bar to chest with control, pause briefly",
+      "Press bar back to starting position explosively"
     ],
     videoUrl: "https://www.youtube.com/watch?v=4Y2ZdHCOXok",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    tips: ["Keep feet flat on ground", "Don't bounce bar off chest", "Breathe in on descent, out on ascent"]
   },
   {
     id: 2,
-    name: "Squats",
-    primaryMuscle: "Quadriceps",
-    secondaryMuscles: ["Glutes", "Hamstrings", "Core"],
-    equipment: "Barbell",
+    name: "Incline Dumbbell Press",
+    primaryMuscle: "Chest",
+    secondaryMuscles: ["Triceps", "Anterior Deltoids"],
+    equipment: "Dumbbells",
     difficulty: "Beginner",
     instructions: [
-      "Stand with feet shoulder-width apart",
-      "Lower your body as if sitting back into a chair",
-      "Keep your chest up and knees tracking over toes",
-      "Drive through heels to return to starting position"
+      "Set bench to 30-45 degree incline",
+      "Hold dumbbells with neutral grip at chest level",
+      "Press dumbbells up and slightly inward",
+      "Lower with control to stretch chest muscles",
+      "Press back to starting position"
     ],
-    videoUrl: "https://www.youtube.com/watch?v=ultWZbUMPL8",
-    image: "https://images.unsplash.com/photo-1566241134019-04730b0a6efe?w=400&h=300&fit=crop"
+    videoUrl: "https://www.youtube.com/watch?v=8iPEnn-ltC8",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    tips: ["Don't press straight up", "Control the negative", "Full range of motion"]
   },
   {
     id: 3,
-    name: "Deadlift",
-    primaryMuscle: "Hamstrings",
-    secondaryMuscles: ["Glutes", "Lower Back", "Traps"],
+    name: "Dumbbell Flyes",
+    primaryMuscle: "Chest",
+    secondaryMuscles: ["Anterior Deltoids"],
+    equipment: "Dumbbells",
+    difficulty: "Intermediate",
+    instructions: [
+      "Lie on flat bench holding dumbbells above chest",
+      "Lower weights in wide arc with slight bend in elbows",
+      "Feel stretch in chest muscles at bottom",
+      "Bring dumbbells back together above chest",
+      "Squeeze chest muscles at top"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=eozdVDA78K0",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    tips: ["Don't use too heavy weight", "Maintain slight elbow bend", "Control the movement"]
+  },
+
+  // BACK EXERCISES
+  {
+    id: 4,
+    name: "Conventional Deadlift",
+    primaryMuscle: "Back",
+    secondaryMuscles: ["Hamstrings", "Glutes", "Traps", "Rhomboids"],
+    equipment: "Barbell",
+    difficulty: "Advanced",
+    instructions: [
+      "Stand with feet hip-width apart, bar over mid-foot",
+      "Bend at hips and knees to grip bar with mixed or double overhand grip",
+      "Keep chest up, shoulders back, and spine neutral",
+      "Drive through heels and extend hips to lift bar",
+      "Reverse the movement to lower bar to ground"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=op9kVnSso6Q",
+    image: "https://images.unsplash.com/photo-1583500178690-83b4e4b9af9e?w=400&h=300&fit=crop",
+    tips: ["Keep bar close to body", "Don't round back", "Hip hinge movement pattern"]
+  },
+  {
+    id: 5,
+    name: "Pull-ups",
+    primaryMuscle: "Back",
+    secondaryMuscles: ["Biceps", "Rear Deltoids", "Rhomboids"],
+    equipment: "Pull-up Bar",
+    difficulty: "Intermediate",
+    instructions: [
+      "Hang from bar with overhand grip, hands shoulder-width apart",
+      "Start with arms fully extended",
+      "Pull body up until chin clears the bar",
+      "Control descent back to starting position",
+      "Maintain core engagement throughout"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=eGo4IYlbE5g",
+    image: "https://images.unsplash.com/photo-1583500178690-83b4e4b9af9e?w=400&h=300&fit=crop",
+    tips: ["Don't swing or kip", "Full range of motion", "Use assistance if needed"]
+  },
+  {
+    id: 6,
+    name: "Barbell Rows",
+    primaryMuscle: "Back",
+    secondaryMuscles: ["Biceps", "Rear Deltoids", "Rhomboids"],
     equipment: "Barbell",
     difficulty: "Intermediate",
     instructions: [
-      "Stand with feet hip-width apart, bar over mid-foot",
-      "Bend at hips and knees to grip the bar",
-      "Keep chest up and back straight",
-      "Drive through heels to lift the bar"
+      "Hold barbell with overhand grip, hands shoulder-width apart",
+      "Hinge at hips with slight knee bend, torso 45-degree angle",
+      "Let bar hang with arms extended",
+      "Pull bar to lower chest/upper abdomen",
+      "Squeeze shoulder blades together at top"
     ],
-    videoUrl: "https://www.youtube.com/watch?v=op9kVnSso6Q",
-    image: "https://images.unsplash.com/photo-1583500178690-83b4e4b9af9e?w=400&h=300&fit=crop"
+    videoUrl: "https://www.youtube.com/watch?v=9efgcAjQe7E",
+    image: "https://images.unsplash.com/photo-1583500178690-83b4e4b9af9e?w=400&h=300&fit=crop",
+    tips: ["Keep core tight", "Don't use momentum", "Control both phases"]
+  },
+
+  // LEG EXERCISES
+  {
+    id: 7,
+    name: "Back Squats",
+    primaryMuscle: "Quadriceps",
+    secondaryMuscles: ["Glutes", "Hamstrings", "Core", "Calves"],
+    equipment: "Barbell",
+    difficulty: "Intermediate",
+    instructions: [
+      "Position bar on upper back (trapezius)",
+      "Stand with feet shoulder-width apart, toes slightly out",
+      "Initiate movement by pushing hips back",
+      "Lower until thighs are parallel to ground",
+      "Drive through heels to return to standing"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=ultWZbUMPL8",
+    image: "https://images.unsplash.com/photo-1566241134019-04730b0a6efe?w=400&h=300&fit=crop",
+    tips: ["Knees track over toes", "Keep chest up", "Full depth if mobility allows"]
+  },
+  {
+    id: 8,
+    name: "Romanian Deadlift",
+    primaryMuscle: "Hamstrings",
+    secondaryMuscles: ["Glutes", "Lower Back", "Core"],
+    equipment: "Barbell",
+    difficulty: "Intermediate",
+    instructions: [
+      "Hold barbell with overhand grip at hip level",
+      "Stand with feet hip-width apart, slight knee bend",
+      "Push hips back and lower bar along legs",
+      "Feel stretch in hamstrings, go as low as flexibility allows",
+      "Drive hips forward to return to standing"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=jEy_czb3RKA",
+    image: "https://images.unsplash.com/photo-1566241134019-04730b0a6efe?w=400&h=300&fit=crop",
+    tips: ["Keep bar close to legs", "Hip hinge movement", "Don't round back"]
+  },
+  {
+    id: 9,
+    name: "Bulgarian Split Squats",
+    primaryMuscle: "Quadriceps",
+    secondaryMuscles: ["Glutes", "Hamstrings", "Calves"],
+    equipment: "Dumbbells",
+    difficulty: "Intermediate",
+    instructions: [
+      "Stand 2-3 feet in front of bench or elevated surface",
+      "Place rear foot on bench behind you",
+      "Hold dumbbells at sides or single dumbbell at chest",
+      "Lower into lunge position on front leg",
+      "Press through front heel to return to start"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=2C-uNgKwPLE",
+    image: "https://images.unsplash.com/photo-1566241134019-04730b0a6efe?w=400&h=300&fit=crop",
+    tips: ["Most weight on front leg", "Don't push off back foot", "Knee tracks over toe"]
+  },
+
+  // SHOULDER EXERCISES
+  {
+    id: 10,
+    name: "Overhead Press",
+    primaryMuscle: "Shoulders",
+    secondaryMuscles: ["Triceps", "Core", "Upper Chest"],
+    equipment: "Barbell",
+    difficulty: "Intermediate",
+    instructions: [
+      "Stand with feet hip-width apart, bar at shoulder level",
+      "Grip bar slightly wider than shoulders",
+      "Brace core and press bar straight up",
+      "Lock out arms overhead with bar over mid-foot",
+      "Lower bar back to shoulder level with control"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=wol7Hko8RhY",
+    image: "https://images.unsplash.com/photo-1583500178690-83b4e4b9af9e?w=400&h=300&fit=crop",
+    tips: ["Don't arch back excessively", "Keep core tight", "Bar path should be straight"]
+  },
+  {
+    id: 11,
+    name: "Lateral Raises",
+    primaryMuscle: "Shoulders",
+    secondaryMuscles: ["Upper Traps"],
+    equipment: "Dumbbells",
+    difficulty: "Beginner",
+    instructions: [
+      "Stand with dumbbells at sides, slight bend in elbows",
+      "Raise weights out to sides until arms parallel to floor",
+      "Lead with pinkies, not thumbs",
+      "Hold briefly at top",
+      "Lower weights with control"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=3VcKaXpzqRo",
+    image: "https://images.unsplash.com/photo-1583500178690-83b4e4b9af9e?w=400&h=300&fit=crop",
+    tips: ["Don't use momentum", "Slight forward lean", "Control the negative"]
+  },
+
+  // ARM EXERCISES
+  {
+    id: 12,
+    name: "Barbell Curls",
+    primaryMuscle: "Biceps",
+    secondaryMuscles: ["Forearms"],
+    equipment: "Barbell",
+    difficulty: "Beginner",
+    instructions: [
+      "Stand with feet hip-width apart, hold barbell with underhand grip",
+      "Keep elbows close to sides",
+      "Curl bar up by flexing biceps",
+      "Squeeze biceps at top of movement",
+      "Lower bar with control to starting position"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=ykJmrZ5v0Oo",
+    image: "https://images.unsplash.com/photo-1583500178690-83b4e4b9af9e?w=400&h=300&fit=crop",
+    tips: ["Don't swing body", "Keep elbows stationary", "Full range of motion"]
+  },
+  {
+    id: 13,
+    name: "Close-Grip Bench Press",
+    primaryMuscle: "Triceps",
+    secondaryMuscles: ["Chest", "Anterior Deltoids"],
+    equipment: "Barbell",
+    difficulty: "Intermediate",
+    instructions: [
+      "Lie on bench with hands 12-16 inches apart on bar",
+      "Lower bar to lower chest with elbows close to body",
+      "Keep elbows at 45-degree angle to torso",
+      "Press bar back to starting position",
+      "Focus on tricep engagement"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=nEF0bv2FW94",
+    image: "https://images.unsplash.com/photo-1583500178690-83b4e4b9af9e?w=400&h=300&fit=crop",
+    tips: ["Don't grip too narrow", "Keep elbows in", "Control the descent"]
+  },
+
+  // CORE EXERCISES
+  {
+    id: 14,
+    name: "Plank",
+    primaryMuscle: "Core",
+    secondaryMuscles: ["Shoulders", "Glutes"],
+    equipment: "Bodyweight",
+    difficulty: "Beginner",
+    instructions: [
+      "Start in push-up position on forearms",
+      "Keep body in straight line from head to heels",
+      "Engage core muscles and glutes",
+      "Breathe normally while holding position",
+      "Hold for specified time"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=ASdvN_XEl_c",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    tips: ["Don't let hips sag", "Don't raise hips too high", "Keep head neutral"]
+  },
+  {
+    id: 15,
+    name: "Russian Twists",
+    primaryMuscle: "Core",
+    secondaryMuscles: ["Obliques"],
+    equipment: "Bodyweight",
+    difficulty: "Beginner",
+    instructions: [
+      "Sit with knees bent, feet slightly off ground",
+      "Lean back to 45-degree angle",
+      "Hold hands together or weight at chest",
+      "Rotate torso left and right",
+      "Keep chest up and core engaged"
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=wkD8rjkodUI",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    tips: ["Control the movement", "Don't just move arms", "Breathe steadily"]
   }
 ];
 
