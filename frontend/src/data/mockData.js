@@ -203,77 +203,116 @@ export const workoutPlans = [
   },
   {
     id: 3,
-    name: "Fat Loss",
-    description: "High Intensity Circuit Training",
-    duration: "6 weeks",
-    difficulty: "Beginner",
-    daysPerWeek: 5,
+    name: "Strength Focus",
+    description: "Powerlifting Style, 3 Days a Week",
+    duration: "16 weeks",
+    difficulty: "Advanced",
+    daysPerWeek: 3,
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
     weeks: [
       {
         weekNumber: 1,
-        title: "WEEK 1 - STARTER",
-        workouts: [
-          {
-            id: 8,
-            day: "Day 1",
-            name: "Full Body HIIT",
-            duration: "30-40 min",
-            exercises: [
-              { name: "Jumping Jacks", sets: 3, reps: "30 seconds", equipment: "Bodyweight" },
-              { name: "Push-ups", sets: 3, reps: "10-15", equipment: "Bodyweight" },
-              { name: "Bodyweight Squats", sets: 3, reps: "15-20", equipment: "Bodyweight" },
-              { name: "Mountain Climbers", sets: 3, reps: "20 each leg", equipment: "Bodyweight" },
-              { name: "Burpees", sets: 3, reps: "5-10", equipment: "Bodyweight" },
-              { name: "Plank", sets: 3, reps: "30-45 seconds", equipment: "Bodyweight" }
-            ]
-          },
-          {
-            id: 9,
-            day: "Day 2",
-            name: "Cardio Circuit",
-            duration: "25-35 min",
-            exercises: [
-              { name: "High Knees", sets: 4, reps: "30 seconds", equipment: "Bodyweight" },
-              { name: "Butt Kicks", sets: 4, reps: "30 seconds", equipment: "Bodyweight" },
-              { name: "Jump Squats", sets: 3, reps: "15-20", equipment: "Bodyweight" },
-              { name: "Lateral Lunges", sets: 3, reps: "10 each side", equipment: "Bodyweight" },
-              { name: "Russian Twists", sets: 3, reps: "20 each side", equipment: "Bodyweight" },
-              { name: "Wall Sit", sets: 3, reps: "30-60 seconds", equipment: "Bodyweight" }
-            ]
-          },
-          {
-            id: 10,
-            day: "Day 3",
-            name: "Upper Body Burn",
-            duration: "30-40 min",
-            exercises: [
-              { name: "Push-ups", sets: 4, reps: "8-12", equipment: "Bodyweight" },
-              { name: "Pike Push-ups", sets: 3, reps: "5-10", equipment: "Bodyweight" },
-              { name: "Tricep Dips", sets: 3, reps: "8-12", equipment: "Bodyweight" },
-              { name: "Arm Circles", sets: 3, reps: "15 each direction", equipment: "Bodyweight" },
-              { name: "Superman", sets: 3, reps: "10-15", equipment: "Bodyweight" },
-              { name: "Dead Bug", sets: 3, reps: "10 each side", equipment: "Bodyweight" }
-            ]
-          }
-        ]
-      },
-      {
-        weekNumber: 2,
-        title: "WEEK 2 - INTENSITY",
+        title: "WEEK 1 - BASE BUILDING",
         workouts: [
           {
             id: 11,
             day: "Day 1",
-            name: "Advanced HIIT",
-            duration: "35-45 min",
+            name: "Squat Focus",
+            duration: "75-90 min",
             exercises: [
-              { name: "Burpee with Jump", sets: 4, reps: "8-12", equipment: "Bodyweight" },
-              { name: "Jump Squats", sets: 4, reps: "15-20", equipment: "Bodyweight" },
-              { name: "Push-up to T", sets: 3, reps: "6-10", equipment: "Bodyweight" },
-              { name: "Mountain Climbers", sets: 4, reps: "30 seconds", equipment: "Bodyweight" },
-              { name: "Plank Jacks", sets: 3, reps: "15-20", equipment: "Bodyweight" },
-              { name: "Single Leg Glute Bridge", sets: 3, reps: "10 each leg", equipment: "Bodyweight" }
+              { name: "Back Squats", sets: 5, reps: "5", equipment: "Barbell", weight: "80-85% 1RM", restTime: "4-5 min" },
+              { name: "Romanian Deadlift", sets: 4, reps: "6-8", equipment: "Barbell", weight: "70-80% 1RM", restTime: "3 min" },
+              { name: "Bulgarian Split Squats", sets: 3, reps: "8-10 each leg", equipment: "Dumbbells", weight: "Moderate", restTime: "2 min" },
+              { name: "Leg Press", sets: 3, reps: "12-15", equipment: "Machine", weight: "Heavy", restTime: "2 min" },
+              { name: "Walking Lunges", sets: 3, reps: "10-12 each leg", equipment: "Dumbbells", weight: "Light-Moderate", restTime: "90 sec" },
+              { name: "Plank", sets: 3, reps: "45-60 sec", equipment: "Bodyweight", weight: "Bodyweight", restTime: "60 sec" }
+            ]
+          },
+          {
+            id: 12,
+            day: "Day 2",
+            name: "Bench Focus",
+            duration: "70-85 min",
+            exercises: [
+              { name: "Barbell Bench Press", sets: 5, reps: "5", equipment: "Barbell", weight: "80-85% 1RM", restTime: "4-5 min" },
+              { name: "Barbell Rows", sets: 4, reps: "6-8", equipment: "Barbell", weight: "75-85% 1RM", restTime: "3 min" },
+              { name: "Overhead Press", sets: 4, reps: "6-8", equipment: "Barbell", weight: "70-80% 1RM", restTime: "3 min" },
+              { name: "Close-Grip Bench Press", sets: 3, reps: "8-10", equipment: "Barbell", weight: "65-75% 1RM", restTime: "2-3 min" },
+              { name: "Pull-ups", sets: 3, reps: "8-12", equipment: "Bodyweight", weight: "Bodyweight/Weighted", restTime: "2 min" },
+              { name: "Barbell Curls", sets: 3, reps: "10-12", equipment: "Barbell", weight: "Moderate", restTime: "90 sec" }
+            ]
+          },
+          {
+            id: 13,
+            day: "Day 3",
+            name: "Deadlift Focus",
+            duration: "80-95 min",
+            exercises: [
+              { name: "Conventional Deadlift", sets: 5, reps: "5", equipment: "Barbell", weight: "80-85% 1RM", restTime: "5-6 min" },
+              { name: "Front Squats", sets: 4, reps: "6-8", equipment: "Barbell", weight: "70-80% 1RM", restTime: "3-4 min" },
+              { name: "Sumo Deadlift", sets: 3, reps: "8-10", equipment: "Barbell", weight: "65-75% 1RM", restTime: "3 min" },
+              { name: "Good Mornings", sets: 3, reps: "10-12", equipment: "Barbell", weight: "Light-Moderate", restTime: "2 min" },
+              { name: "Hip Thrusts", sets: 4, reps: "10-12", equipment: "Barbell", weight: "Heavy", restTime: "2 min" },
+              { name: "Farmer's Walk", sets: 3, reps: "40-60 steps", equipment: "Dumbbells", weight: "Heavy", restTime: "2 min" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 4,
+    name: "Full Body Beginner",
+    description: "3 Days a Week, Perfect Start",
+    duration: "8 weeks",
+    difficulty: "Beginner",
+    daysPerWeek: 3,
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    weeks: [
+      {
+        weekNumber: 1,
+        title: "WEEK 1 - LEARNING BASICS",
+        workouts: [
+          {
+            id: 14,
+            day: "Day 1",
+            name: "Full Body A",
+            duration: "40-50 min",
+            exercises: [
+              { name: "Goblet Squats", sets: 3, reps: "10-12", equipment: "Dumbbells", weight: "Light-Moderate", restTime: "90 sec" },
+              { name: "Push-ups (Modified if needed)", sets: 3, reps: "8-12", equipment: "Bodyweight", weight: "Bodyweight", restTime: "90 sec" },
+              { name: "Dumbbell Rows", sets: 3, reps: "10-12", equipment: "Dumbbells", weight: "Light-Moderate", restTime: "90 sec" },
+              { name: "Overhead Press", sets: 3, reps: "8-10", equipment: "Dumbbells", weight: "Light", restTime: "90 sec" },
+              { name: "Glute Bridges", sets: 3, reps: "12-15", equipment: "Bodyweight", weight: "Bodyweight", restTime: "60 sec" },
+              { name: "Plank", sets: 3, reps: "20-30 sec", equipment: "Bodyweight", weight: "Bodyweight", restTime: "60 sec" }
+            ]
+          },
+          {
+            id: 15,
+            day: "Day 2",
+            name: "Full Body B",
+            duration: "40-50 min",
+            exercises: [
+              { name: "Lunges", sets: 3, reps: "8-10 each leg", equipment: "Bodyweight", weight: "Bodyweight", restTime: "90 sec" },
+              { name: "Incline Push-ups", sets: 3, reps: "8-12", equipment: "Bodyweight", weight: "Bodyweight", restTime: "90 sec" },
+              { name: "Lat Pulldown", sets: 3, reps: "10-12", equipment: "Cable/Resistance Band", weight: "Light-Moderate", restTime: "90 sec" },
+              { name: "Dumbbell Chest Press", sets: 3, reps: "10-12", equipment: "Dumbbells", weight: "Light-Moderate", restTime: "90 sec" },
+              { name: "Step-ups", sets: 3, reps: "8-10 each leg", equipment: "Bodyweight", weight: "Bodyweight", restTime: "60 sec" },
+              { name: "Dead Bug", sets: 3, reps: "8-10 each side", equipment: "Bodyweight", weight: "Bodyweight", restTime: "60 sec" }
+            ]
+          },
+          {
+            id: 16,
+            day: "Day 3",
+            name: "Full Body C",
+            duration: "40-50 min",
+            exercises: [
+              { name: "Wall Sit", sets: 3, reps: "20-30 sec", equipment: "Bodyweight", weight: "Bodyweight", restTime: "90 sec" },
+              { name: "Knee Push-ups", sets: 3, reps: "8-12", equipment: "Bodyweight", weight: "Bodyweight", restTime: "90 sec" },
+              { name: "Resistance Band Rows", sets: 3, reps: "12-15", equipment: "Resistance Band", weight: "Light", restTime: "90 sec" },
+              { name: "Dumbbell Bicep Curls", sets: 3, reps: "10-12", equipment: "Dumbbells", weight: "Light", restTime: "60 sec" },
+              { name: "Tricep Dips (Assisted)", sets: 3, reps: "6-10", equipment: "Bodyweight", weight: "Bodyweight", restTime: "90 sec" },
+              { name: "Mountain Climbers", sets: 3, reps: "15-20", equipment: "Bodyweight", weight: "Bodyweight", restTime: "60 sec" }
             ]
           }
         ]
