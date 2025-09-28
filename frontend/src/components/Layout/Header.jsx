@@ -12,7 +12,7 @@ const Header = ({ title, subtitle, showNotifications = true }) => {
                 <span className="text-white font-bold text-sm">GV</span>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-white">GYMVERSE</h1>
+                <h1 className="text-xl font-bold text-white">GYMNATION</h1>
                 {subtitle && (
                   <p className="text-xs text-gray-400">{subtitle}</p>
                 )}
